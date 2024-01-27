@@ -64,3 +64,4 @@ generate_commits_on_random_days(commit_days, MIN_COMMITS_PER_DAY, MAX_COMMITS_PE
 
 # Push the commits to the remote repository
 run_command("git push")
+print()
