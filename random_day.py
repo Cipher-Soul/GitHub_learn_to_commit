@@ -8,7 +8,7 @@ GIT_REPO_PATH = "C:/Users/user/Desktop/GitHub_learn_to_commit"  # Your local git
 YEAR = 2024                          # The year in which random commits will be made
 MIN_COMMITS_PER_DAY = 1               # Minimum commits on a selected day
 MAX_COMMITS_PER_DAY = 8               # Maximum commits on a selected day
-TOTAL_COMMIT_DAYS = 39                # Total random days to make commits in the year
+TOTAL_COMMIT_DAYS = 80                # Total random days to make commits in the year
 
 # Change the current directory to your git repository
 os.chdir(GIT_REPO_PATH)
@@ -64,4 +64,4 @@ generate_commits_on_random_days(commit_days, MIN_COMMITS_PER_DAY, MAX_COMMITS_PE
 
 # Push the commits to the remote repository
 run_command("git push")
-print(f'\033[33m Succefully pushed \033[0m')
+print(f'\033[32m Succefully pushed \033[0m')
